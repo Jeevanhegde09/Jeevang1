@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Create. Dream. Become.</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Zen+Maru+Gothic:wght@500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- ===== EDIT: LOGO / NAV LINKS / CTA ===== -->
+<header class="nav" id="nav">
+  <a href="#home" class="logo" aria-label="Home"><span class="logo-mark">星</span><span class="logo-text">KIRA</span></a>
+  <nav id="menu" class="menu" aria-label="Main">
+    <a href="#home">Home</a><a href="#about">About</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#contact">Contact</a>
+    <a href="#contact" class="btn btn-sm menu-cta">Let's talk</a>
+  </nav>
+  <button class="burger" id="burger" aria-expanded="false" aria-controls="menu" aria-label="Toggle menu"><span></span><span></span></button>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="bg" aria-hidden="true">
+    <i class="blob b1"></i><i class="blob b2"></i><i class="blob b3"></i><i class="grid"></i>
+    <i class="star s1">✦</i><i class="star s2">✧</i><i class="star s3">✦</i><i class="star s4">✧</i><i class="star s5">✦</i>
+  </div>
+
+  <div class="copy">
+    <p class="tag"><span class="dot"></span>Open for new projects</p>
+    <!-- ===== EDIT: HEADLINE ===== -->
+    <h1 aria-label="Create. Dream. Become.">
+      <span class="line c1"><span>CREATE.</span></span>
+      <span class="line c2"><span>DREAM.</span></span>
+      <span class="line c3"><span>BECOME.</span></span>
+    </h1>
+    <p class="sub">Turning ideas, creativity and technology into experiences worth remembering.</p>
+    <div class="ctas">
+      <a href="#about" class="btn btn-primary">EXPLORE MY WORLD</a>
+      <a href="#projects" class="btn btn-ghost">VIEW PROJECTS</a>
+    </div>
+  </div>
+
+  <!-- ===== EDIT: ILLUSTRATION (replace the <svg> or swap in <img src="you.png">) ===== -->
+  <div class="visual" aria-hidden="true">
+    <div class="speed"></div>
+    <div class="ring"></div>
+    <div class="panel p1"><b>ACT 01</b><em>夢</em></div>
+    <div class="panel p2"><svg viewBox="0 0 40 40"><path d="M8 30 L20 8 L32 30 Z" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/></svg></div>
+    <div class="sticker">NEW!</div>
+    <div class="bubble">Let's make<br>something!</div>
+    <div class="kanji">創造</div>
+
+    <svg class="hero-art" viewBox="0 0 400 480">
+      <defs>
+        <linearGradient id="hair" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5b5bff"/><stop offset="1" stop-color="#8a5cff"/></linearGradient>
+        <linearGradient id="coat" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#dfe6ff"/></linearGradient>
+      </defs>
+      <ellipse cx="200" cy="455" rx="130" ry="14" fill="#5b5bff" opacity=".12"/>
+      <!-- body -->
+      <path d="M90 470 C90 350 130 320 200 318 C270 320 310 350 310 470 Z" fill="url(#coat)" stroke="#1d1b3a" stroke-width="5" stroke-linejoin="round"/>
+      <path d="M200 318 L170 470 M200 318 L230 470" stroke="#1d1b3a" stroke-width="4" fill="none"/>
+      <path d="M165 322 L200 372 L235 322" fill="#ff6fa3" stroke="#1d1b3a" stroke-width="5" stroke-linejoin="round"/>
+      <!-- neck + head -->
+      <rect x="180" y="285" width="40" height="45" rx="14" fill="#ffe3d3" stroke="#1d1b3a" stroke-width="5"/>
+      <ellipse cx="200" cy="215" rx="82" ry="92" fill="#ffe9db" stroke="#1d1b3a" stroke-width="5"/>
+      <!-- back hair -->
+      <path d="M112 215 C90 120 150 60 215 62 C290 64 322 130 288 225 C300 170 270 120 200 118 C150 118 118 160 112 215Z" fill="url(#hair)" stroke="#1d1b3a" stroke-width="5" stroke-linejoin="round"/>
+      <!-- bangs -->
+      <path d="M118 190 C120 130 160 100 200 112 C240 100 285 130 284 190 C265 160 250 150 232 148 C238 168 224 182 208 186 C204 164 190 152 170 150 C150 152 132 168 118 190Z" fill="url(#hair)" stroke="#1d1b3a" stroke-width="5" stroke-linejoin="round"/>
+      <path d="M150 128 C170 100 210 92 240 104" stroke="#fff" stroke-width="6" stroke-linecap="round" fill="none" opacity=".7"/>
+      <!-- eyes -->
+      <g class="eyes">
+        <ellipse cx="164" cy="222" rx="17" ry="24" fill="#fff" stroke="#1d1b3a" stroke-width="4"/>
+        <ellipse cx="236" cy="222" rx="17" ry="24" fill="#fff" stroke="#1d1b3a" stroke-width="4"/>
+        <ellipse cx="166" cy="226" rx="11" ry="17" fill="#2fa8ff"/><ellipse cx="234" cy="226" rx="11" ry="17" fill="#2fa8ff"/>
+        <circle cx="166" cy="228" r="6" fill="#1d1b3a"/><circle cx="234" cy="228" r="6" fill="#1d1b3a"/>
+        <circle cx="171" cy="219" r="4.5" fill="#fff"/><circle cx="239" cy="219" r="4.5" fill="#fff"/>
+      </g>
+      <path d="M142 196 Q164 186 184 198 M216 198 Q236 186 258 196" stroke="#1d1b3a" stroke-width="5" fill="none" stroke-linecap="round"/>
+      <path d="M186 262 Q200 274 214 262" stroke="#1d1b3a" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+      <ellipse cx="146" cy="254" rx="12" ry="7" fill="#ff8fb5" opacity=".6"/><ellipse cx="254" cy="254" rx="12" ry="7" fill="#ff8fb5" opacity=".6"/>
+      <!-- headphones -->
+      <path d="M118 210 C112 130 170 98 200 98 C240 98 292 130 284 210" stroke="#ff9f43" stroke-width="9" fill="none" stroke-linecap="round"/>
+      <rect x="100" y="198" width="26" height="52" rx="12" fill="#ff9f43" stroke="#1d1b3a" stroke-width="5"/>
+      <rect x="274" y="198" width="26" height="52" rx="12" fill="#ff9f43" stroke="#1d1b3a" stroke-width="5"/>
+    </svg>
+  </div>
+
+  <a href="#about" class="scroll"><span>SCROLL TO EXPLORE</span><b>↓</b></a>
+</section>
+
+<!-- next section placeholder: replace with your content -->
+<section class="next" id="about"><h2>About</h2><p>Your next section starts here. Hero transitions into it with the wave above.</p></section>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
